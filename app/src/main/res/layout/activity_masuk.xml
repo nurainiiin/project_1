@@ -1,41 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.learn.kelompok.MasukActivity">
+    android:fillViewport="false">
 
-    <Button
-        android:id="@+id/buttonBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="New Button" />
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/buttonBack"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="47dp"
+        android:orientation="vertical"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="1"
         tools:context="id.sch.smktelkom_mlg.learn.kelompok.MasukActivity">
+        b
+
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:id="@+id/buttonpahlawan"
+            android:layout_width="332dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:text="MENU" />
-    </RelativeLayout>
-</RelativeLayout>
+            android:text="PAHLAWAN" />
+
+        <Button
+            android:id="@+id/buttonmakanan"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="MAKANAN" />
+
+        <Button
+            android:id="@+id/buttonra"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="RUMAH ADAT" />
+
+        <Button
+            android:id="@+id/buttonwisata"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="WISATA" />
+
+        <Button
+            android:id="@+id/buttonbaju"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:text="BAJU DAERAH" />
+    </LinearLayout>
+</ScrollView>

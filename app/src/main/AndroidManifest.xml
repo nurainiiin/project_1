@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MasukActivity"></activity>
+        <activity android:name=".MasukActivity" />
+        <activity android:name=".PahlawanActivity" />
+        <activity android:name=".MasukPahlawanActivity" />
+        <activity android:name=".Pahlawan2Activity" />
+        <activity android:name=".aboutUs"></activity>
     </application>
 
 </manifest>
